@@ -1,0 +1,20 @@
+# Core (present by default on Kaggle GPU images)
+numpy
+pandas
+scipy
+scikit-learn
+librosa
+soundfile
+torch
+transformers
+tqdm
+matplotlib
+seaborn
+nltk
+
+# Installed in-notebook (wheels only)
+lightgbm
+language-tool-python
+
+# Optional (gated by HAS_PRAAT — wheel often fails on Py3.12)
+# praat-parselmouth

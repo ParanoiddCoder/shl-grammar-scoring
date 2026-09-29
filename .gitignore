@@ -1,0 +1,24 @@
+# Data (do not commit competition audio/labels)
+*.wav
+audios_train/
+audios_test/
+train.csv
+test.csv
+sample_submission.csv
+
+# Cached features / model artifacts
+*.parquet
+*.pkl
+*.npy
+*.npz
+tx_*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
