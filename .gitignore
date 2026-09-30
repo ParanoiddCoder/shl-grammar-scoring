@@ -22,3 +22,7 @@ venv/
 
 # OS
 .DS_Store
+
+# Internal working notes / scratch (not part of the submission)
+CONTEXT_HANDOFF_v6.md
+v6_paste_cells.txt
