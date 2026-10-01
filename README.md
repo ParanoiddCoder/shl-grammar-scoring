@@ -14,7 +14,7 @@ The submission uses the in-range labels only (732 rows), predictions clipped to 
 | Held-out RMSE (random CV) | 0.534 |
 | Held-out RMSE (duration-matched to test) | 0.580 |
 | Held-out Pearson | 0.851 |
-| Best public LB | 0.4263 |
+| Best public LB | 0.4142 |
 
 A note on the numbers: the held-out figures are measured with the blend weights **and** the
 calibration fit inside each fold — nothing is scored on rows it was trained on — so they're honest
